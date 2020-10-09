@@ -1,0 +1,48 @@
+#Sample file for processes
+# Number of processes:
+6
+# ID, arrival time, expected run time, priority, program size, program (each line is instruction)
+1 1.7 6 5 12 
+Code:
+" RQ 1 1 5 5 0 "
+" RL 1 1 5 5 0 "
+" RQ 0 0 8 4 1 "
+" RQ 0 0 6 2 0 "
+" RL 0 0 6 2 0 "
+" * "
+exit;
+2 1.5 4 4 8 
+Code:
+" RQ 1 0 1 1 0 "
+" RQ 0 0 1 1 1 "
+" RQ 1 2 2 1 0 "
+" * "
+exit;
+3 1.2 6 1 12 
+Code:
+" RQ 0 0 1 1 1 "
+" RL 0 0 1 1 1 "
+" RQ 1 0 4 4 0 "
+" RQ 1 1 1 1 0 "
+" RL 1 1 1 1 0 "
+" * "
+exit;
+4 4.2 4 1 8 
+Code:
+" RQ 2 3 2 2 5 "
+" RQ 2 1 0 0 1 "
+" RL 2 1 1 1 1 "
+" * "
+exit;
+5 5.5 2 6 4 
+Code:
+" NEW 7 5.6 4 5 8 "
+" NEW 8 5.7 4 5 8 "
+exit;
+6 6.6 4 10 8 
+Code:
+" READ 6 "
+" READ 32 "
+" RQ 2 1 1 1 1 "
+" * "
+exit;

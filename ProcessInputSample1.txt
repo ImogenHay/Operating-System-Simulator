@@ -1,0 +1,45 @@
+#Sample file for processes
+# Number of processes:
+5
+# ID, arrival time, expected run time (CPU burst), priority, program size, program (each line is instruction)
+1 6.5 6 1 12 
+Code:
+" READ 24 "
+" RQ 0 7 0 0 "
+" RQ 0 0 2 3 "
+" RQ 0 1 3 2 "
+" RL 0 7 5 3 "
+" * "
+exit;
+2 5.4 4 1 8 
+Code:
+" READ 12 "
+" RQ 3 2 1 2 "
+" RQ 2 3 0 2 "
+" * "
+exit;
+3 4.1 2 4 4 
+Code:
+" 2 ADD 3 "
+" 2 SUB 3 "
+exit;
+4 1.1 6 5 12 
+Code:
+" NEW 6 1.4 5 1 10 "
+" RQ 2 6 0 0 "
+" RQ 3 0 1 0 "
+" RL 2 6 0 0 "
+" RL 3 0 1 0 "
+" * "
+exit;
+5 1.6 8 6 16 
+Code:
+" READ 48 "
+" RQ 1 3 2 3 "
+" RL 1 3 2 2 "
+" READ 1 "
+" RQ 4 3 1 2 "
+" RQ 4 1 2 1 "
+" RL 4 3 3 3 "
+" * "
+exit;

@@ -1,0 +1,7 @@
+#Sample file for resources
+#Number of Customers
+3
+#Number of each resource
+1,5,5,0
+0,9,5,2
+3,2,2,5
