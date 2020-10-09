@@ -29,6 +29,6 @@ X ADD Y - where x and why are both integers and the sum of both is produced.
 X SUB Y - where x and why are both integers and the y is subtracted from x.
 RQ <customer> <amount of R1> <amount of R2> ect. - requests to obtain resources for customer (process)
 RL <customer> <amount of R1> <amount of R2> ect.- requests to release resources for customer (process)
-* - displays the current resource state.
+'*' - displays the current resource state.
 READ x - reads physical address of virtual address x.
 NEW <ID> <arrival time> <CPU burst> <priority> <program size> - creates a new PCB for this process using values inputted.
