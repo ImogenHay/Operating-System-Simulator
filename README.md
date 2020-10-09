@@ -14,6 +14,7 @@ manager. You can enter either ‘lru’ (lest recently used) or ‘fifo’ (firs
 
 You can then choose a process scheduling algorithm by entering a number from 0-6. The algorithms these
 numbers represent are listed here:
+
 0 = FCFS (first come first serve)
 1 = SJF (shortest job first)
 2 = RR (round robin)
